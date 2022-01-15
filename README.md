@@ -1,4 +1,4 @@
-# DUCK-DNS-DOCKER
+# duck-dns-docker
 
 Docker setup for https://www.duckdns.org/
 
