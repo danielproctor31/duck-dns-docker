@@ -1,0 +1,9 @@
+version: "2.4"
+services:
+  app:
+    build:
+      context: .
+    env_file:
+      - .env
+    container_name: duck-dns-cron
+    restart: unless-stopped
