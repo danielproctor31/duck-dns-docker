@@ -8,7 +8,7 @@ WORKDIR /duckdns
 COPY run.sh run.sh
 COPY cronconfig cronconfig
 
-# Install dos2unix and node
+# Install dos2unix
 RUN apk update \
     apk --no-cache add dos2unix
 RUN apk add curl
