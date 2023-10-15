@@ -7,7 +7,7 @@ Create a .env file in the root with:
 DOMAINS=
 TOKEN=
 IP=
-CRON_INTERVAL="*/5 * * * *"
+CRON_INTERVAL=*/5 * * * *
 ```
 - DOMAINS - a csv of your duckdns domains to update.
 - TOKEN - Your auth token provided by duckdns.
